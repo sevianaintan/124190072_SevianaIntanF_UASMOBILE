@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_margin="30dp"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/background"
+    android:padding="10pt">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Biodata"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:layout_marginTop="10pt"
+        android:layout_width="wrap_content"
+        android:text="Nama : "
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        />
+    <EditText
+        android:id="@+id/nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Inputkan Nama Lengkap Anda!"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_marginTop="10pt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="NIM :" />
+    <EditText
+        android:id="@+id/nim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Inputkan NIM Anda!"
+        android:textSize="15dp"/>
+
+
+    <TextView
+        android:layout_marginTop="10pt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tempat Lahir :"
+        android:textColor="@color/black"/>
+    <EditText
+        android:id="@+id/tempat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Inputkan Tempat Lahir Anda!"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:layout_marginTop="10pt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tanggal Lahir :"
+        android:textColor="@color/black"/>
+    <EditText
+        android:id="@+id/tanggal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Inputkan Tanggal Lahir Anda!"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:layout_marginTop="10pt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alamat :"
+        android:textColor="@color/black"/>
+    <EditText
+        android:id="@+id/alamat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Inputkan Alamat Anda!"
+        android:textSize="15dp"/>
+
+   <Button
+       android:id="@+id/next_page"
+       android:layout_marginTop="60dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Next Page"
+       android:onClick="next"/>
+
+
+</LinearLayout>
